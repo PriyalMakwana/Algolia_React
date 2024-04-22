@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.pagination-list{
+    list-style: none !important;
+    padding: 0;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pagination-list li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.pagination-list li:hover{
+    background-color: rgb(189, 185, 185);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main{
+    display: flex;
+    width: 90%;
+    border: 1px solid rgb(233, 230, 230);
+    margin: 12px;
+    padding: 13px;
+    border-radius: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+header{
+    text-align: center;
+}
+
+.stats{
+   margin-left: 5%;
+   color: #a5a4a4;
+   margin-top: 1%;
+}
+
+.sidebar{
+  width: 50%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 30px;
+  margin-top: 95px;
 }
 
-.App-link {
-  color: #61dafb;
+.rightDiv{
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sideCard{
+    border: 1px solid rgb(227, 224, 224);
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
 }
